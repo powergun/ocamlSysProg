@@ -1,3 +1,14 @@
+(* 
+source
+ocaml unix P4/8
+
+link: scripts/cmdline/argv
+link: scripts/environ/environ
+*)
+(* 
+open Unix;; 
+#load "unix.cma";;
+*)
 let echo () =
   let len = Array.length Sys.argv in 
   if len > 1 then begin
