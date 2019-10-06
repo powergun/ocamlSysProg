@@ -19,8 +19,7 @@ let transform line =
   ;;
 
 let output line oc = 
-  output_string oc line;
-  output_string oc "\n";
+  Printf.fprintf oc "%s\n" line;
   ;;
 
 let demoReadFile () =
