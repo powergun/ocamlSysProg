@@ -1,0 +1,22 @@
+# read:
+# https://stackoverflow.com/questions/9713678/which-cma-file-corresponds-with-which-module-in-ocaml
+# 
+
+# firstly, install ocamlfind and refresh the environment:
+opam install ocamlfind
+eval $(opam env)
+
+# then test that ocamlfind is working:
+ocamlfind list
+
+# follow the above link, for example, to find the str.cma I can:
+ocamlfind query str
+ls $(ocamlfind query str)/*.cma
+
+# 1st line: I get the module name "str" from `ocamlfind list`
+# 2nd line: this is to ensure that str.cma is in the search path and that file exists
+
+# once confirmed, I can call 
+
+#load "str.cma";; 
+
