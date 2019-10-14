@@ -1,5 +1,11 @@
 #!/usr/bin/env coretop
 
+(* 
+for full example, see ocamlFoo/simpleVariant
+source:
+https://dev.realworldocaml.org/variants.html
+*)
+
 open Core;;
 open Stdio;;
 
