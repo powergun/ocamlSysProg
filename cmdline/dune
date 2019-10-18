@@ -10,3 +10,9 @@
  (libraries core base stdio)
  (modules Annoymous_arg)
  (preprocess (pps ppx_jane)))
+
+(executable
+ (name two_args)
+ (libraries core base stdio)
+ (modules Two_args)
+ (preprocess (pps ppx_jane)))

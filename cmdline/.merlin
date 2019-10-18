@@ -38,6 +38,7 @@ B /Users/weining/work/dev/ocaml/github.com/powergun/ocamlFoo/_opam/lib/typerep
 B /Users/weining/work/dev/ocaml/github.com/powergun/ocamlFoo/_opam/lib/variantslib
 B _build/default/.annoymous_arg.eobjs/byte
 B _build/default/.md5sum.objs/byte
+B _build/default/.two_args.eobjs/byte
 S /Users/weining/work/dev/ocaml/github.com/powergun/ocamlFoo/_opam/lib/base
 S /Users/weining/work/dev/ocaml/github.com/powergun/ocamlFoo/_opam/lib/base/caml
 S /Users/weining/work/dev/ocaml/github.com/powergun/ocamlFoo/_opam/lib/base/md5
@@ -77,4 +78,4 @@ S /Users/weining/work/dev/ocaml/github.com/powergun/ocamlFoo/_opam/lib/typerep
 S /Users/weining/work/dev/ocaml/github.com/powergun/ocamlFoo/_opam/lib/variantslib
 S .
 FLG -ppx '/Users/weining/work/dev/ocaml/github.com/powergun/ocamlSysProg/cmdline/_build/default/.ppx/03c5d02a89234e3c15ee43299325fe40/ppx.exe --as-ppx --cookie '\''library-name="md5sum"'\'''
-FLG -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs
+FLG -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs

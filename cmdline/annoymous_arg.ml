@@ -20,4 +20,29 @@ let filename_param =
   anon ("filename" %: string)
 ;;
 
+let command =
+  Command.basic
+    ~summary:"Generate"
+    ~readme:(fun () -> "More more more")
+    (Command.Param.map filename_param ~f:(
+      fun filename -> (fun () ->
+        Stdio.printf "%s\n" filename
+      )
+    ))
+;;
+
+(* 
+dune exec -- ./annoymous_arg.exe -version
+dune exec -- ./annoymous_arg.exe -build-info
+dune exec -- ./annoymous_arg.exe asdsadasd
+*)
+let () = 
+  Command.run ~version:"1.0" ~build_info:"RWO" command
+;;
+
+
+
+
+
+
 
