@@ -2,4 +2,11 @@
  (name md5sum)
  (libraries core base stdio)
  (inline_tests)
+ (preprocess (pps ppx_jane))
+ (modules Md5sum))
+
+(executable
+ (name annoymous_arg)
+ (libraries core base stdio)
+ (modules Annoymous_arg)
  (preprocess (pps ppx_jane)))
